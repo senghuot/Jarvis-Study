@@ -6,7 +6,7 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Lato',sans-serif;
-	font-weight: 300;
+	  font-weight: 300;
     color: #666;
     background-color: #fff;
 }
@@ -295,7 +295,13 @@ hr {
 	color: #fff;
 }
 
+.white {
+  background-color: white !important;
+}
 
+iframe {
+  overflow: hidden;
+}
 
 /* ===========================
 --- Intro
@@ -304,12 +310,11 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
-	background: url(../img/bg1.jpg) no-repeat top center;
+  background-color: #336E7B;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:10% 0 0 0;
 }
 
 .intro .slogan {
