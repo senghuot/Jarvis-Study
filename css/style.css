@@ -31,7 +31,7 @@ h6 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6em;
 }
 
@@ -74,7 +74,7 @@ a:focus {
 
 .navbar-brand h1{
 	color: #fff;
-  font-size: 20px;
+  font-size: 35px;
   line-height: 40px;
 }
 
@@ -92,7 +92,7 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 1px;
     color: #444;
 	text-transform: uppercase;
@@ -307,10 +307,20 @@ iframe {
 --- Intro
 ============================ */
 
+.intro:before {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
 .intro {
 	width:100%;
 	position:relative;
-  background-color: #336E7B;
+  background-image: url('../img/background-blurred.jpg');  
+  background-size: 100%;
+  /*background-color: #336E7B;*/
 }
 
 #intro.intro {
@@ -355,6 +365,13 @@ iframe {
 	text-shadow: -1px 1px 1px #000;
 }
 
+#overview {
+  padding-top: 50px;
+}
+
+.jarvis {
+  padding-top: 10px;
+}
 
 /* ===========================
 --- About
